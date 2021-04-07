@@ -36,6 +36,8 @@
         <e p="Views" t="Include">
           <e p="MainWindow.axaml" t="Include" />
           <e p="MainWindow.axaml.cs" t="Include" />
+          <e p="TodoListView.axaml" t="Include" />
+          <e p="TodoListView.axaml.cs" t="Include" />
         </e>
       </e>
       <e p="Todo.sln" t="IncludeFlat" />
