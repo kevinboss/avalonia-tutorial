@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Reactive;
+using ReactiveUI;
 using Todo.Models;
 
 namespace Todo.ViewModels
@@ -10,15 +12,11 @@ namespace Todo.ViewModels
         public TodoListViewModel(IEnumerable<TodoItem> items)
         {
             Items = new ObservableCollection<TodoItem>(items);
+            AddItem = ReactiveCommand.Create(() => { });
         }
-
-        public event EventHandler AddItemEvent;
 
         public ObservableCollection<TodoItem> Items { get; }
-
-        public void AddItem()
-        {
-            AddItemEvent?.Invoke(this, EventArgs.Empty);
-        }
+        
+        public ReactiveCommand<Unit, Unit> AddItem { get; }
     }
 }

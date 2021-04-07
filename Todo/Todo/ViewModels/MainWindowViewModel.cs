@@ -1,4 +1,7 @@
-﻿using ReactiveUI;
+﻿using System;
+using System.Reactive.Linq;
+using ReactiveUI;
+using Todo.Models;
 using Todo.Services;
 
 namespace Todo.ViewModels
@@ -10,7 +13,7 @@ namespace Todo.ViewModels
         public MainWindowViewModel(Database db)
         {
             Content = List = new TodoListViewModel(db.GetItems());
-            List.AddItemEvent += (_, _) => AddItem();
+            List.AddItem.Subscribe(_ => AddItem());
         }
 
         public ViewModelBase Content
@@ -23,7 +26,23 @@ namespace Todo.ViewModels
 
         public void AddItem()
         {
-            Content = new AddItemViewModel();
+            var vm = new AddItemViewModel();
+
+            Observable.Merge(
+                    vm.Ok,
+                    vm.Cancel.Select(_ => (TodoItem)null))
+                .Take(1)
+                .Subscribe(model =>
+                {
+                    if (model != null)
+                    {
+                        List.Items.Add(model);
+                    }
+
+                    Content = List;
+                });
+
+            Content = vm;
         }
     }
 }
