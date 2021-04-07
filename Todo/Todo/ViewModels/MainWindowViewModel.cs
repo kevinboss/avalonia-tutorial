@@ -1,17 +1,29 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using ReactiveUI;
 using Todo.Services;
 
 namespace Todo.ViewModels
 {
-    public class MainWindowViewModel : ViewModelBase
+    class MainWindowViewModel : ViewModelBase
     {
+        ViewModelBase content = null!;
+
         public MainWindowViewModel(Database db)
         {
-            List = new TodoListViewModel(db.GetItems());
+            Content = List = new TodoListViewModel(db.GetItems());
+            List.AddItemEvent += (_, _) => AddItem();
+        }
+
+        public ViewModelBase Content
+        {
+            get => content;
+            private set => this.RaiseAndSetIfChanged(ref content, value);
         }
 
         public TodoListViewModel List { get; }
+
+        public void AddItem()
+        {
+            Content = new AddItemViewModel();
+        }
     }
 }

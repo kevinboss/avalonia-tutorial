@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed9532a3-e6ab-49e6-8e66-ed229226c062" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Todo/ViewModels/AddItemViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Todo/Views/AddItemView.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Todo/Views/AddItemView.axaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Todo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Todo/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Todo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Todo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Todo/App.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Todo/App.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Todo/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Todo/ViewModels/MainWindowViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Todo/ViewModels/TodoListViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Todo/ViewModels/TodoListViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Todo/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Todo/Views/MainWindow.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Todo/Views/TodoListView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Todo/Views/TodoListView.axaml" afterDir="false" />
     </list>
@@ -26,20 +33,23 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/42ED81B8-4EA6-4A20-9C8A-62C83D9D73F9/7c/415d7b7e/Action.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3964ECCD-63C1-4D6B-A9F0-7FA8F889C77A/35/ReactiveObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4EADE163-AAD4-463A-AECB-C5BC3A85EC4A/A/ObservableCollection.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Todo/Todo.csproj" />
-      <option value="$PROJECT_DIR$/Todo/App.axaml" />
       <option value="$PROJECT_DIR$/Todo/Models/TodoItem.cs" />
       <option value="$PROJECT_DIR$/Todo/Services/Database.cs" />
       <option value="$PROJECT_DIR$/Todo/App.axaml.cs" />
-      <option value="$PROJECT_DIR$/Todo/ViewModels/MainWindowViewModel.cs" />
-      <option value="$PROJECT_DIR$/Todo/ViewModels/TodoListViewModel.cs" />
+      <option value="$PROJECT_DIR$/Todo/App.axaml" />
+      <option value="$PROJECT_DIR$/Todo/ViewModels/AddItemViewModel.cs" />
+      <option value="$PROJECT_DIR$/Todo/Views/AddItemView.axaml" />
       <option value="$PROJECT_DIR$/Todo/Views/MainWindow.axaml" />
       <option value="$PROJECT_DIR$/Todo/Views/TodoListView.axaml" />
+      <option value="$PROJECT_DIR$/Todo/ViewModels/TodoListViewModel.cs" />
+      <option value="$PROJECT_DIR$/Todo/ViewModels/MainWindowViewModel.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qn8oykVsd31gzHa5cPUOVqpTm5" />
@@ -65,6 +75,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -98,7 +109,7 @@
       <updated>1617704174045</updated>
       <workItem from="1617704183878" duration="677000" />
       <workItem from="1617776833845" duration="1825000" />
-      <workItem from="1617808001235" duration="2413000" />
+      <workItem from="1617808001235" duration="4214000" />
     </task>
     <servers />
   </component>

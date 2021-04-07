@@ -9,7 +9,10 @@
         <viewModels:TodoListViewModel />
     </Design.DataContext>
     <DockPanel>
-        <Button DockPanel.Dock="Bottom">Add an item</Button>
+        <Button DockPanel.Dock="Bottom"
+                Command="{Binding AddItem}">
+            Add an item
+        </Button>
         <ItemsControl Items="{Binding Items}">
             <ItemsControl.ItemTemplate>
                 <DataTemplate>

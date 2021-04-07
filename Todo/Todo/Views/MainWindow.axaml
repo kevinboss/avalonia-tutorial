@@ -5,7 +5,7 @@
         Icon="/Assets/avalonia-logo.ico"
         Width="200" Height="300"
         Title="Avalonia Todo"
-        Content="{Binding Path=List}">
+        Content="{Binding Path=Content}">
     <Design.DataContext>
         <viewModels:MainWindowViewModel />
     </Design.DataContext>
