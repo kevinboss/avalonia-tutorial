@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed9532a3-e6ab-49e6-8e66-ed229226c062" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Todo/Models/TodoItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Todo/Services/Database.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Todo/ViewModels/TodoListViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Todo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Todo/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Todo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Todo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo/App.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Todo/App.axaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Todo/ViewModels/MainWindowViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Todo/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Todo/Views/MainWindow.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Todo/Views/TodoListView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Todo/Views/TodoListView.axaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +17,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3964ECCD-63C1-4D6B-A9F0-7FA8F889C77A/35/ReactiveObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4EADE163-AAD4-463A-AECB-C5BC3A85EC4A/A/ObservableCollection.cs" root0="SKIP_HIGHLIGHTING" />
@@ -28,14 +32,14 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Todo/Todo.csproj" />
-      <option value="$PROJECT_DIR$/Todo/Views/TodoListView.axaml" />
-      <option value="$PROJECT_DIR$/Todo/Views/MainWindow.axaml" />
       <option value="$PROJECT_DIR$/Todo/App.axaml" />
       <option value="$PROJECT_DIR$/Todo/Models/TodoItem.cs" />
       <option value="$PROJECT_DIR$/Todo/Services/Database.cs" />
-      <option value="$PROJECT_DIR$/Todo/ViewModels/TodoListViewModel.cs" />
-      <option value="$PROJECT_DIR$/Todo/ViewModels/MainWindowViewModel.cs" />
       <option value="$PROJECT_DIR$/Todo/App.axaml.cs" />
+      <option value="$PROJECT_DIR$/Todo/ViewModels/MainWindowViewModel.cs" />
+      <option value="$PROJECT_DIR$/Todo/ViewModels/TodoListViewModel.cs" />
+      <option value="$PROJECT_DIR$/Todo/Views/MainWindow.axaml" />
+      <option value="$PROJECT_DIR$/Todo/Views/TodoListView.axaml" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qn8oykVsd31gzHa5cPUOVqpTm5" />
@@ -55,6 +59,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -88,7 +98,7 @@
       <updated>1617704174045</updated>
       <workItem from="1617704183878" duration="677000" />
       <workItem from="1617776833845" duration="1825000" />
-      <workItem from="1617808001235" duration="452000" />
+      <workItem from="1617808001235" duration="2413000" />
     </task>
     <servers />
   </component>
