@@ -8,16 +8,23 @@
     <Design.DataContext>
         <viewModels:TodoListViewModel />
     </Design.DataContext>
+    <UserControl.Styles>
+        <StyleInclude Source="/Assets/CustomStyles.axaml" />
+    </UserControl.Styles>
     <DockPanel>
         <Button DockPanel.Dock="Bottom"
                 Command="{Binding AddItem}">
             Add an item
         </Button>
         <ItemsControl Items="{Binding Items}">
+            <ItemsControl.Styles>
+                <Style Selector="CheckBox:pointerover">
+                    <Setter Property="FontWeight" Value="Bold"/>
+                </Style>
+            </ItemsControl.Styles>
             <ItemsControl.ItemTemplate>
                 <DataTemplate>
-                    <CheckBox Margin="4"
-                              IsChecked="{Binding IsChecked}"
+                    <CheckBox IsChecked="{Binding IsChecked}"
                               Content="{Binding Description}" />
                 </DataTemplate>
             </ItemsControl.ItemTemplate>

@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed9532a3-e6ab-49e6-8e66-ed229226c062" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Todo/Assets/CustomStyles.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Todo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Todo/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Todo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Todo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo/ViewModels/AddItemViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Todo/ViewModels/AddItemViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Todo/ViewModels/MainWindowViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo/ViewModels/TodoListViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Todo/ViewModels/TodoListViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo/Views/AddItemView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Todo/Views/AddItemView.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Todo/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Todo/Views/MainWindow.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Todo/Views/TodoListView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Todo/Views/TodoListView.axaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +28,13 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/42ED81B8-4EA6-4A20-9C8A-62C83D9D73F9/7c/415d7b7e/Action.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3964ECCD-63C1-4D6B-A9F0-7FA8F889C77A/35/ReactiveObject.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4EADE163-AAD4-463A-AECB-C5BC3A85EC4A/A/ObservableCollection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/783DE5A1-32E6-4CE1-9590-C76447498BD2/1/FluentTheme.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/901D0287-899F-4379-87F8-8FB13D3BE845/2A/DockPanel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/901D0287-899F-4379-87F8-8FB13D3BE845/129/IDataTemplate.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/901D0287-899F-4379-87F8-8FB13D3BE845/34/ItemsControl.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/901D0287-899F-4379-87F8-8FB13D3BE845/D/Button.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/901D0287-899F-4379-87F8-8FB13D3BE845/6D/TextBlock.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/901D0287-899F-4379-87F8-8FB13D3BE845/48/Panel.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -40,11 +44,12 @@
       <option value="$PROJECT_DIR$/Todo/App.axaml.cs" />
       <option value="$PROJECT_DIR$/Todo/App.axaml" />
       <option value="$PROJECT_DIR$/Todo/Views/MainWindow.axaml" />
-      <option value="$PROJECT_DIR$/Todo/Views/TodoListView.axaml" />
       <option value="$PROJECT_DIR$/Todo/ViewModels/AddItemViewModel.cs" />
       <option value="$PROJECT_DIR$/Todo/Views/AddItemView.axaml" />
       <option value="$PROJECT_DIR$/Todo/ViewModels/TodoListViewModel.cs" />
       <option value="$PROJECT_DIR$/Todo/ViewModels/MainWindowViewModel.cs" />
+      <option value="$PROJECT_DIR$/Todo/Views/TodoListView.axaml" />
+      <option value="$PROJECT_DIR$/Todo/Assets/CustomStyles.axaml" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qn8oykVsd31gzHa5cPUOVqpTm5" />
